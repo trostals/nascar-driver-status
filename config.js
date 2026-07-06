@@ -15,8 +15,8 @@ const CONFIG = {
   // ─── Data Source URLs ────────────────────────────────────────────────────
   // Find RACE_ID by opening DevTools on nascar.com during a race and
   // filtering Network requests for "live-feed.json"
-  liveFeedUrl:   'https://cf.nascar.com/cacher/2026/1/5616/live-feed.json',
-  livePointsUrl: 'https://cf.nascar.com/cacher/2026/1/5616/live-points.json',
+  liveFeedUrl:   'https://cf.nascar.com/cacher/2026/1/5610/live-feed.json',
+  livePointsUrl: 'https://cf.nascar.com/cacher/2026/1/5610/live-points.json',
 
   // ─── Refresh Interval (milliseconds) ─────────────────────────────────────
   refreshInterval: 30000,   // 30s; set to 0 to disable
