@@ -128,9 +128,9 @@ function renderStageStrip(stageNum) {
 }
 
 function renderPtsCell(val, liveVal, inStage, notStarted=false, inProgress=false) {
-  //if (val !== null && val !== undefined) {
-    //return `<span class="pts-cell ${val>0?'scored':'zero'}">${val}</span>`;
-  // }
+  if (val !== null && val !== undefined) {
+    return `<span class="pts-cell ${val>0?'scored':'zero'}">${val}</span>`;
+   }
   if (notStarted) return `<span class="pts-cell pending">—</span>`;
   if (inProgress || inStage) {
     const proj = liveVal ?? 0;
