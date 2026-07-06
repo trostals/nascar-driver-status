@@ -10,7 +10,7 @@ const CONFIG = {
 
   // ─── Race Info ────────────────────────────────────────────────────────────
   raceName: 'NASCAR Cup Series Race',
-  raceTrack: '',  // e.g. "Daytona International Speedway"
+  raceTrack: 'Chicagoland',  // e.g. "Daytona International Speedway"
 
   // ─── Data Source URLs ────────────────────────────────────────────────────
   // Find RACE_ID by opening DevTools on nascar.com during a race and
