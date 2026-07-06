@@ -17,7 +17,7 @@ const CONFIG = {
   // filtering Network requests for "live-feed.json"
   
   liveFeedUrl:   'https://cf.nascar.com/live/feeds/live-feed.json',
-  livePointsUrl: 'https://cf.nascar.com/live/feeds/live-points.json  ',
+  livePointsUrl: 'https://cf.nascar.com/live/feeds/live-points.json',
 
   // ─── Refresh Interval (milliseconds) ─────────────────────────────────────
   refreshInterval: 30000,   // 30s; set to 0 to disable
